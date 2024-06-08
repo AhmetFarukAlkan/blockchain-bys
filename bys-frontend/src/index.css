@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/*Custom FilePond classes */
+.filepond--panel-root {
+    @apply bg-gray-50 rounded-lg border border-gray-300 dark:bg-gray-700 dark:border-gray-600 !important
+}
+
+.filepond--drop-label {
+    @apply text-gray-900 dark:text-white !important;
+}
+
+/* Custom React Select Classes */
+.react-select-container {
+
+}
+
+.react-select__control {
+    @apply bg-gray-50 border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-500 dark:focus:border-blue-500 !important
+}
+
+.react-select__control--is-disabled {
+
+}
+
+.react-select__value-container {
+
+}
+
+.react-select__placeholder {
+
+}
+
+.react-select__value-container--has-value {
+
+}
+
+.react-select__single-value {
+    @apply text-gray-900 dark:text-white !important
+}
+
+.react-select__single-value--is-disabled {
+    @apply text-gray-400 !important
+}
+
+.react-select__input-container {
+
+}
+
+.react-select__input {
+    @apply text-gray-900 dark:text-white !important
+}
+
+.react-select__indicators {
+
+}
+
+.react-select__indicator-separator {
+
+}
+
+.react-select__dropdown-indicator {
+
+}
+
+.react-select__menu {
+    @apply bg-gray-50 dark:bg-gray-700 !important;
+}
+
+.react-select__menu-list {
+
+}
+
+.react-select__option {
+    @apply text-gray-900 dark:text-white hover:dark:text-gray-700 !important
+}
+
+.react-select__option--is-focused {
+    @apply dark:text-gray-700 !important
+}
+
+.react-select__placeholder {
+
+}
+
+.react-select__control--is-focused {
+
+}
+
+.react-select__control--menu-is-open {
+
+}
+
+.react-select__multi-value {
+
+}
+
+.react-select__multi-value__label {
+
+}
+
+.react-select__multi-value__remove {
+
+}
+
+.react-select__clear-indicator {
+
+}

@@ -1,0 +1,22 @@
+{
+  "name": "bys-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.2",
+    "ethers": "^6.11.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "web3": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

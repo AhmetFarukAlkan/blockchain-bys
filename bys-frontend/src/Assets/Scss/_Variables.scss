@@ -1,0 +1,47 @@
+//Import Font
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700&display=swap&subset=latin-ext');
+
+//Color Variables
+$darkBlue: #0e369a;
+$softBlue: #1c4cc3;
+$white: #FFFFFF;
+$lightBlue: #95acff;
+$bodyBg: #f2f4f8;
+$spBlue1: #047bf8;
+$textDark: #3E4B5B;
+$textLight: #a6a7a9;
+$textMidLight: darken($textLight, 15%);
+$borderColor: #dde2ec;
+
+$lightGreen: #11a8ab;
+$blue: #1a4e95;
+$textColor: #333;
+$darkgrey: #f3f3f3;
+$lightgrey: #fff;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$lightSeaGreen: #11a8ab;
+
+
+//Mixins
+@mixin transition($interest, $value, $type) {
+  transition: $interest $value $type;
+  -moz-transition: $interest $value $type;
+  -webkit-transition: $interest $value $type;
+}
+
+@mixin transformHover($variable) {
+  -webkit-transform: translateX($variable);
+  -moz-transform: translateX($variable);
+  transform: translateX($variable)
+}
